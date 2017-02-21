@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+   <script>
+
+    function getRandomIntInclusive(min, max) {
+	  min = Math.ceil(min);
+	  max = Math.floor(max);
+	  return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+       /*function guessGame() {
+    var number = Math.random() * 100 + 1,
+        guess,
+        text = 'Guess a number:';
+    do {
+        guess = prompt(text);
+        if (number < guess) {
+            text = "You've guessed too high!";
+        } else if (number > guess) {
+            text = "You've guessed too low!";
+        }
+    } while (guess !== number);
+    document.write("Good Job!");
+}
+
+guessGame();
+*/
+
+   </script>
+	
+</body>
+</html>
